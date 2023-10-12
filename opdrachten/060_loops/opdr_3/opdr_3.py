@@ -6,4 +6,11 @@
 
 # Hier start de for-loop
 
-my_list = []
+resultaten = []
+
+for nummer in range(3, 82, 3):
+    kwadraat = nummer ** 2
+    resultaat = kwadraat / 3
+    resultaten.append(resultaat)
+
+print(resultaten)

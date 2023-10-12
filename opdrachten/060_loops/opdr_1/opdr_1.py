@@ -6,4 +6,9 @@
 
 # Hier start de for-loop....
 
-my_list = []
+
+Getal = []
+
+for nummer in range(1, 11):
+    Getal.append(nummer)
+    print(Getal)

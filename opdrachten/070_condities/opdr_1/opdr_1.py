@@ -6,7 +6,14 @@
 
 # Hier start de for-loop....
 
-my_list = []
-
 #for loop
 #if statement
+
+getallenlijst = []
+
+for nummer in range(1, 11):
+    getallenlijst.append(nummer)
+
+for getal in getallenlijst:
+    if getal > 4:
+        print(getal, end=' ')

@@ -3,11 +3,14 @@
 # Groep:
 
 # Hier komt je code...
-print("    *")
-print("   ***")
-print("  *****")
-print(" *******")
-print("*********")
-print("   ***")
-print("   ***")
-print("   ***")
+
+for i in range(1):
+    print("    *     " * 5) 
+    print("   ***    " * 5)
+    print("  *****   " * 5)
+    print(" *******  " * 5)
+    print("********* " * 5)
+    print("   ***    " * 5)
+    print("   ***    " * 5)
+    print("   ***    " * 5)
+    print ()
